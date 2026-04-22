@@ -70,7 +70,7 @@ export default function AboutSection() {
           </div>
 
           {/* Right: Stats + Visual Mockup */}
-          <div className="relative w-full h-[400px] md:h-[450px] lg:h-[500px]">
+          <div className="hidden md:block relative w-full h-[400px] md:h-[450px] lg:h-[500px]">
 
             {/* Desktop / Browser Mockup UI (Background Right) */}
             <motion.div
