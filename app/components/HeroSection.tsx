@@ -11,7 +11,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section 
+    <section
       className="w-full bg-white overflow-hidden cursor-pointer"
       onClick={navigateToPartner}
     >
@@ -29,23 +29,24 @@ export default function HeroSection() {
               <div className="relative">
                 {/* Subtle background gradient glow behind heading */}
                 <div className="absolute -left-20 -top-10 w-[150%] h-[150%] bg-primary/[0.15] blur-[140px] rounded-full -z-10 transition-all duration-1000" />
-                
-                <h1 className="font-sans text-3xl sm:text-4xl font-black leading-[0.95] text-black md:text-6xl lg:text-7xl">
+
+                <h1 className="font-sans text-5xl sm:text-4xl font-black  text-black md:text-6xl lg:text-7xl">
                   EMPOWERING
                   <br />
                 </h1>
-                <h2 className="text-primary text-3xl sm:text-4xl pt-3 font-semibold leading-[0.95] md:text-5xl lg:text-6xl">
+                <h2 className="text-primary text-5xl sm:text-4xl pt-3 font-semibold md:text-5xl lg:text-6xl">
                   <span className="tracking-wider"> CAR RENTAL</span><br />
                   OPERATORS
                 </h2>
               </div>
 
               {/* Feature card */}
-              <div className="relative -ml-4 md:-ml-12 w-full max-w-sm overflow-hidden rounded-r-[0.2em] border border-white/20 px-9 py-6 shadow-2xl md:px-11 md:py-8">
+              <div className="relative -ml-4 md:-ml-12 w-[90%] md:w-full max-w-sm overflow-hidden rounded-r-[0.2em] border border-white/20 px-9 py-6 shadow-2xl md:px-11 md:py-8">
                 <Image
                   src="/hero-section/semi-headings.png"
                   alt="Semi-headings background"
                   fill
+                  priority
                   sizes="(max-width: 768px) 100vw, 384px"
                   className="object-cover object-center"
                 />
@@ -88,7 +89,7 @@ export default function HeroSection() {
             <div className="hidden lg:block relative w-full lg:w-[70%] overflow-visible">
               {/* Darker background shadow effect */}
               <div className="absolute top-1/2 left-[60%] -translate-x-1/2 -translate-y-1/2 w-[110%] h-[100%] bg-black/[0.22] blur-[140px] rounded-full z-0" />
-              
+
               <Image
                 src="/hero-section/hero-img.svg"
                 alt="YalaRide Hero Illustration"

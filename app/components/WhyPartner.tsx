@@ -108,9 +108,9 @@ export default function WhyPartner() {
 
           {/* Left: Sticky Branding Column */}
           <div className="lg:w-1/3 lg:sticky lg:top-32 h-fit">
-            <div className="relative pl-12">
+            <div className="relative lg:pl-12">
               {/* Vertical Progress Line */}
-              <div className="absolute left-0 top-0 bottom-0 w-px bg-gray-100">
+              <div className="hidden lg:block absolute left-0 top-0 bottom-0 w-px bg-gray-100">
                 <div
                   className="absolute top-0 left-1/2 -translate-x-1/2 w-[2px] bg-primary transition-all duration-150 ease-out"
                   style={{ height: `${scrollProgress}%` }}
