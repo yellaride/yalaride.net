@@ -47,6 +47,7 @@ export default function HeroSection() {
                   alt="Semi-headings background"
                   fill
                   priority
+                  fetchPriority="high"
                   sizes="(max-width: 768px) 100vw, 384px"
                   className="object-cover object-center"
                 />
@@ -96,6 +97,7 @@ export default function HeroSection() {
                 width={1200}
                 height={1200}
                 priority
+                sizes="(max-width: 1024px) 1px, (max-width: 1536px) 50vw, 1000px"
                 className="relative z-10 object-contain w-full h-auto scale-[1.4] origin-center"
                 style={{ height: 'auto' }}
               />
