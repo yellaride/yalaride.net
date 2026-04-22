@@ -21,8 +21,7 @@ const carCategories = [
   { name: "SUV", color: "bg-orange-500/10", emoji: "🚐" },
   { name: "Luxury", color: "bg-amber-500/10", emoji: "✨" },
   { name: "Convertible", color: "bg-red-500/10", emoji: "🏎️" },
-  { name: "Minivan", color: "bg-teal-500/10", emoji: "🚌" },
-  { name: "Pickup Truck", color: "bg-indigo-500/10", emoji: "🛻" },
+  { name: "Mini-van", color: "bg-teal-500/10", emoji: "🚌" },
 ];
 
 export default function AboutSection() {
@@ -119,7 +118,7 @@ export default function AboutSection() {
 
                 <div className="mt-auto pt-4 flex justify-center">
                   <motion.button
-                    animate={{ 
+                    animate={{
                       scale: [1, 1.05, 1],
                     }}
                     transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
